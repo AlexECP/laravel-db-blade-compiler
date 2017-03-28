@@ -49,7 +49,7 @@ class DbBladeCompilerServiceProvider extends ServiceProvider
 
         $this->app->booting(function () {
             $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-            $loader->alias('DbView', DbView::class);
+            //$loader->alias('DbView', DbView::class);
         });
     }
 
